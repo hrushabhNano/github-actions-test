@@ -16,6 +16,9 @@ jobs:
             run: yarn install
           - name: Build the Project
             run:  yarn build
-          - name: Setup Finish
+          - name: Deplying the project
+            run: yarn deploy
             run: echo "Actions completed"
+
+        
 
